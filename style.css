@@ -139,3 +139,52 @@ header > .right .search-icon img:hover {
 #search-bar:hover > button > svg {
     fill: #4c5fd5;
 }
+
+/* Container */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 7rem 15px;
+    gap: 6.125em;
+}
+
+.container .item {
+    width: 100%;
+
+    display: flex;
+
+    gap: 18px;
+}
+
+.item .content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.item .content p {
+    font-size: 1.4em;
+    line-height: 140%;
+}
+
+.item .content a {
+    text-decoration: none;
+    color: #4c5fd5;
+    font-size: 1.2em;
+}
+
+.item .content a:hover {
+    text-decoration: underline;
+}
+
+.container .item h4 {
+    font-size: 1.5em;
+}
+
+.container .item .icon img {
+    width: 70px;
+}
+
+footer {
+    background-color: black;
+}
