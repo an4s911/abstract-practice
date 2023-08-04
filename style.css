@@ -64,3 +64,74 @@ header > .right .search-icon img:hover {
     width: 37px;
     height: 37px;
 }
+
+/* Hero */
+#hero {
+    background-color: #dadbf1;
+    height: 350px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 15px;
+
+    gap: 35px;
+}
+
+#hero h2 {
+    font-weight: normal;
+    font-size: 2.2em;
+    letter-spacing: -2px;
+}
+
+#search-bar {
+    display: flex;
+    border: 1px solid black;
+    background-color: white;
+
+    justify-content: space-between;
+    align-items: center;
+
+    border-radius: 5px;
+    height: 65px;
+    width: 100%;
+
+    padding: 15px;
+
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+#search-bar > input,
+#search-bar > button {
+    all: unset;
+}
+
+#search-bar > input {
+    color: black;
+    font-size: 1.3em;
+    font-weight: lighter;
+}
+
+#search-bar > button > svg {
+    transition: ease-in-out 0.2s;
+    height: 40px;
+    fill: black;
+}
+
+#search-bar > input::placeholder {
+    color: black;
+    opacity: 1;
+}
+
+#search-bar:hover,
+#search-bar:focus,
+#search-bar:active {
+    transition: ease-in-out 0.2s;
+    border-color: #4c5fd5;
+}
+
+#search-bar:hover > button > svg {
+    fill: #4c5fd5;
+}
