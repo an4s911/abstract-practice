@@ -255,4 +255,37 @@ footer ul {
     flex-direction: column;
     gap: 7px;
     font-size: 1.2em;
+    letter-spacing: 0.5px;
+}
+
+/* Floating Help sign */
+#float-help {
+    position: fixed;
+    right: 20px;
+    bottom: 12px;
+    color: white;
+    background-color: #4c5fd5;
+    padding: 13px 22px;
+    border: none;
+    border-radius: 50px;
+
+    font-weight: bold;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+
+    cursor: pointer;
+}
+
+#float-help .q-mark {
+    border-radius: 50%;
+    border: 2px solid white;
+    width: 20px;
+    height: 20px;
+}
+
+#float-help span:last-child {
+    font-size: 1.2em;
 }
